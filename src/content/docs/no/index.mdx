@@ -1,0 +1,56 @@
+---
+title: Welcome to Blevours
+head:
+  - tag: title
+    content: Blevours, an open-source Bleverse Docs.
+template: splash
+description: Bleverse Docs x Relivator Docs.
+editUrl: false
+next: false
+hero:
+  title: Welcome to Blevours
+  tagline: Congrats on visiting to a brand new Bleverse Docs!
+  image:
+    alt: Blevours, an open-source Bleverse Docs.
+    dark: ../../../assets/houston.webp
+    light: ../../../assets/houston.webp
+  actions:
+    - text: Relivator Docs
+      link: /guides/relivator/
+      icon: right-arrow
+      variant: primary
+    - text: Bleverse Blog
+      link: /blog/
+      variant: secondary
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Blevours Shorts: What is Relivator
+
+<CardGrid stagger>
+  <Card title="Tailor Your Project" icon="pencil">
+    Customize `src/app.ts` to manage your website's content and settings,
+    including theme toggles and site-wide information.
+  </Card>
+  <Card title="Seamlessly Integrate Databases" icon="setting">
+    Configure `DATABASE_URL` in your `.env` file to switch between MySQL and
+    PostgreSQL effortlessly, thanks to Drizzle ORM.
+  </Card>
+  <Card title="Optimize Authentication" icon="puzzle">
+    Set up versatile authentication systems using `.env` file configurations for
+    NextAuth.js or Clerk, making your application secure and flexible.
+  </Card>
+  <Card title="Explore Modern Web Development" icon="document">
+    Discover the advanced features of React 18 and Next.js 14, including server
+    components, API routes, and more for an enhanced development experience.
+  </Card>
+  <Card title="Design with Style" icon="bars">
+    Craft stunning interfaces using components from Flowbite and Shadcn UI,
+    styled with Radix and Tailwind CSS for a contemporary look.
+  </Card>
+  <Card title="Dive into the Docs" icon="open-book">
+    Learn more about the extensive features and capabilities of Relivator in
+    [the detailed documentation](/guides/relivator/).
+  </Card>
+</CardGrid>

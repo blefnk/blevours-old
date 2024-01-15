@@ -1,0 +1,58 @@
+---
+title: Witamy w Blevours
+head:
+  - tag: title
+    content: Blevours — Bleverse Docs.
+template: splash
+description: Bleverse Docs x Relivator Docs.
+editUrl: false
+next: false
+hero:
+  title: Witamy w Blevours
+  tagline: Gratulacje z okazji wizyty Bleverse Docs!
+  image:
+    alt: Blevours — Bleverse Docs.
+    dark: ../../../assets/houston.webp
+    light: ../../../assets/houston.webp
+  actions:
+    - text: Relivator Docs
+      link: /guides/relivator/
+      icon: right-arrow
+      variant: primary
+    - text: Co to jest Bleverse
+      link: /guides/relivator/
+      icon: puzzle
+      variant: secondary
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Blevours Shorts: Relivator
+
+<CardGrid stagger>
+  <Card title="Dostosuj Swój Projekt" icon="pencil">
+    Dostosuj `src/app.ts`, aby zarządzać treścią i ustawieniami Twojej strony
+    internetowej, w tym przełącznikami motywów i informacjami na całej stronie.
+  </Card>
+  <Card title="Bezproblemowa Integracja Baz Danych" icon="setting">
+    Skonfiguruj `DATABASE_URL` w swoim pliku `.env`, aby łatwo przełączać się
+    między MySQL a PostgreSQL, dzięki ORM Drizzle.
+  </Card>
+  <Card title="Optymalizuj Uwierzytelnianie" icon="puzzle">
+    Ustaw elastyczne systemy uwierzytelniania, używając konfiguracji pliku
+    `.env` dla NextAuth.js lub Clerk, zapewniając bezpieczeństwo i elastyczność
+    aplikacji.
+  </Card>
+  <Card title="Odkryj Nowoczesny Rozwój Webowy" icon="document">
+    Poznaj zaawansowane funkcje React 18 i Next.js 14, w tym komponenty
+    serwerowe, trasy API i więcej, dla lepszego doświadczenia w rozwoju.
+  </Card>
+  <Card title="Projektuj z Stylem" icon="bars">
+    Twórz zachwycające interfejsy, korzystając z komponentów Flowbite i Shadcn
+    UI, stylizowanych za pomocą Radix i Tailwind CSS dla nowoczesnego wyglądu.
+  </Card>
+  <Card title="Zanurz Się w Dokumentacji" icon="open-book">
+    Dowiedz się więcej o obszernych funkcjach i możliwościach Relivator w
+    [szczegółowej dokumentacji](/guides/relivator/).
+  </Card>
+</CardGrid>
