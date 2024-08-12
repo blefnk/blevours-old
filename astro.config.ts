@@ -18,10 +18,6 @@ export default defineConfig({
     starlight({
       defaultLocale: "root",
       locales: {
-        no: {
-          label: "Norwegian",
-          lang: "no",
-        },
         pl: {
           label: "Polish",
           lang: "pl",
@@ -48,6 +44,12 @@ export default defineConfig({
           },
           label: "Reference",
         },
+        {
+          autogenerate: {
+            directory: "reliverse",
+          },
+          label: "Reliverse",
+        },
       ],
       social: {
         github: "https://github.com/blefnk/blevours",
@@ -59,7 +61,6 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    compress(),
   ],
   site: "https://docs.bleverse.com",
 });

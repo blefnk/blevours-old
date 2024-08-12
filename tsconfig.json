@@ -32,8 +32,8 @@
     "skipLibCheck": true
   },
   "include": [
-    "eslint.config.ts",
     "**/*.astro",
+    "**/*.js",
     "**/*.cjs",
     "**/*.cts",
     "**/*.mjs",

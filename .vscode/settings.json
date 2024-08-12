@@ -43,7 +43,7 @@
   },
   "markdownlint.config": {
     "MD033": {
-      "allowed_elements": ["img", "p", "a", "details", "summary"]
+      "allowed_elements": ["img", "p", "a", "details", "summary", "div", "iframe"]
     }
   },
   "tsEssentialPlugins.fixSuggestionsSorting": true,
